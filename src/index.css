@@ -1,0 +1,39 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Inter:wght@400;700&display=swap');
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-retro: "Press Start 2P", system-ui, sans-serif;
+}
+
+:root {
+  background-color: #0c0d10;
+  color: #e2e8f0;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+#root {
+  width: 100%;
+}
+
+.game-grid {
+  display: grid;
+  grid-template-columns: repeat(20, 1fr);
+  grid-template-rows: repeat(20, 1fr);
+}
+
+.snake-segment {
+  box-shadow: 0 0 10px rgba(250, 204, 21, 0.5);
+}
+
+.food-item {
+  box-shadow: 0 0 15px rgba(248, 113, 113, 0.7);
+}

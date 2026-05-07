@@ -1,0 +1,6 @@
+{
+  "name": "Retro Snake",
+  "description": "A polished, retro-themed Snake game with smooth animations and high-score tracking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
